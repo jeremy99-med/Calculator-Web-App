@@ -2,23 +2,34 @@ body {
     background-color:darkgray;
 }
 
+#root {
+    align-self:center;
+}
+
 div#calculator {
     width: 500px;
     background-color: black;
     border-radius: 15px;
+    justify-self:center;
+    align-self: center;
 }
 
 div#buttons button {border-radius: 100%;padding: 20px;font-size: 24px;font-family: serif;width: 100px;height: 100px;margin: 10px;}
 
 div#display input {
     height: 90px;
-    width: 100%;
+    width: 90%;
     background-color: black;
     padding-block: 0px;
     padding-inline: 0px;
     padding: 0px;
     border-width: 0px;
     border-radius: 15px;
+    color:cornsilk;
+    font-size:70px;
+    text-align:right;
+    font-family: sans-serif;
+    margin: 5%;
 }
 
 div#buttons {
