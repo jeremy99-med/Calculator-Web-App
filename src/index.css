@@ -1,0 +1,44 @@
+body {
+    background-color:darkgray;
+}
+
+div#calculator {
+    width: 500px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+div#buttons button {border-radius: 100%;padding: 20px;font-size: 24px;font-family: serif;width: 100px;height: 100px;margin: 10px;}
+
+div#display input {
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    padding-block: 0px;
+    padding-inline: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-radius: 15px;
+}
+
+div#buttons {
+    text-align: center;
+    border-top: 1px solid wheat;
+}
+
+button.btn {
+    background-color:cornsilk;
+}
+
+button.btn.operator {
+    background-color: #d26161;
+}
+
+button.btn#equals {
+    width:90%;
+    border-radius: 20px;
+    background-color: darkseagreen;
+}
+button.btn#clear {
+    background-color: darkgoldenrod;
+}
